@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 
     line-height: 1.7;
-    margin: 1em 0 15px;
+    margin: 1em 0 10px;
     padding: 0;
     text-align: left;
 
@@ -449,6 +449,7 @@ body:after {
 .post_date {
     text-align: left;
     color: #939aa1;
+    margin: 5px 0;
 }
 
 .cd-container a {
