@@ -421,7 +421,7 @@ body:after {
 	    content: '';
 }
 
-.post h1{
+.post h1 {
     font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-align: left;
     font-weight: bold;
@@ -430,7 +430,7 @@ body:after {
     line-height: 1.2;
 }
 
-.page h1{
+.page h1 {
     font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-align: left;
     font-weight: bold;
@@ -439,13 +439,17 @@ body:after {
     line-height: 1.2;
 }
 
-.author_title{
+.author_title {
     text-align: left;
     color: #939aa1;
     letter-spacing: 2px;
 }
 
-.post_date{
+.author_title p {
+    margin: 0px 0;
+}
+
+.post_date {
     text-align: left;
     color: #939aa1;
 }
@@ -670,6 +674,10 @@ Modules - reusable parts of our design
 .post-tags {
     text-align: left;
     line-height: 35px;
+}
+
+.post-tags p {
+    margin: 0px 0;
 }
 
 .post-tags a {
