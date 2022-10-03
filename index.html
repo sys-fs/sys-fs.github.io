@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-<div class="post-tags">
-  {% for category in site.categories %}
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <a href="{{site.baseurl}}/categories/#{{category_name|slugize}}">{{category_name}}</a>
-    {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
 
 <div class="posts">
   {% for post in paginator.posts %}
