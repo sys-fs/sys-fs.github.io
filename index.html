@@ -3,7 +3,8 @@ layout: default
 ---
 <div class="post-tags">
   {% for category in site.categories %}
-    <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <a href="{{site.baseurl}}/categories/#{{category_name|slugize}}">{{category_name}}</a>
     {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
