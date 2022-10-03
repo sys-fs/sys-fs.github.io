@@ -5,7 +5,7 @@ categories: [Emacs]
 ---
 
 I've come to really like how `<menu>` in Ergoemacs lets you enter commands as a
-string of characters without having to use modal editing. I like is so much
+sequence of characters without having to use modal editing. I like is so much
 that I now set anything up with a command map to use `<menu>` and a relevant
 key (e.g. `p` for projectile) as its prefix. In fact, I'll even do it for
 things that don't have command maps by making my own. Here's an example for
